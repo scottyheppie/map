@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <script src="html2canvas.js" type="text/javascript"></script>
+
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    
+    <title>GDP Missing Maps</title>
+  </head>
+  <body>
+    <h2>Missing Maps</h2>
+    <div id="map" class="map" style="width: 100%; height: 500px;"></div>
+    <div id="mapPopUp"><p>Zoom in to analyse</p></div>
+    <button onclick="takeScreenshot()" id="takeScreenshotBtn">Analyse</button>
+    <script src="./index.js"></script>
+
+  </body>
+</html>

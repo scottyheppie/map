@@ -1,0 +1,11 @@
+#mapPopUp{
+	padding:2%;
+	z-index: 2;
+	position: absolute;
+	background-color: rgba(0,0,0,0.16);
+}
+
+#map{
+	position: relative;
+	z-index: 1;
+}
